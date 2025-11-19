@@ -8,7 +8,7 @@ const Products = ({state,dispatch}) => {
     style={{
       display:"flex",
       flexWrap:"wrap",
-      justifyContent:"space-evenly",
+      justifyContent:"space-around",
       width:"80%",
     }}
     >{products.map((product)=>(
